@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+    html, body {
+        height: 100%;
+    }
+    
+    html {
+        display: table;
+        margin: 0% 15%;
+    }
+    
+    body {
+        display: table-cell;
+    }
+}
+
+:root{
+    --theme-color: #059669;
+    --text-color: white;
+    --section-color: #ECFDF5;
+}
+
+.navbar{
+    background-color: var(--theme-color);
+    border-bottom-left-radius: 1rem;
+}
+
+.navbar .navbrand{
+    color: var(--text-color);
+    padding: 1rem 0rem 0rem 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .navList{
+    list-style-type: none;
+    text-align: right;
+    padding: 0.5rem 1rem 0.5rem 0rem;
+}
+
+.navbar .navList .navitem{
+    display: inline;
+    padding: 0.2rem 1.3rem;
+}
+
+.link{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+
+.link:hover{
+    text-decoration: underline;
+}
+/*
+    Hero Header Section
+*/
+.heroPart{
+
+}
+
+.heroPart > img{
+    margin: auto;
+    max-width: 300px;
+    display: block;
+    height: auto;
+    object-fit: cover;
+}
+
+.heroPart .heroHeader{
+    text-align: center;
+}
+
+.heroHeader .subheading{
+    font-weight: 200;
+}
+
+/*
+    sections part
+*/
+
+section{
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.techSection{
+    background-color: var(--section-color);
+}
+
+.blogSection{
+    background-color: var(--section-color);
+}
+
+.sectionHeading{
+    text-align: center;
+}
+
+.sectionContent{
+    text-align: center;
+}
+
+
+/*
+    Footer Section
+*/
+
+.footer{
+    border-top-right-radius: 1rem;
+    background-color: var(--theme-color);
+    padding: 0.5rem 0rem;
+    margin-top: 0.5rem;
+}
+
+.footer .footerHeading{
+    padding: 0rem 1rem;
+    color: var(--text-color);
+    font-weight: 200;
+}
+
+.footer .mediaList{
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer .mediaList .mediaItem{
+    display: inline;
+    padding: 0.6rem;
+}
