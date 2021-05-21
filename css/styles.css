@@ -17,7 +17,7 @@ body{
     
     html {
         display: table;
-        margin: 0% 15%;
+        margin: 0% 20%;
     }
     
     body {
@@ -110,6 +110,18 @@ section{
     text-align: center;
 }
 
+button{
+    padding: 0.6rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    outline: none;
+}
+
+.content{
+    text-align: center;
+}
 
 /*
     Footer Section
@@ -136,4 +148,49 @@ section{
 .footer .mediaList .mediaItem{
     display: inline;
     padding: 0.6rem;
+}
+
+/*
+    Projects page section 
+*/
+
+
+.projectSection .projectHeading{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.projectSection .techStackContent{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.technologies{
+    font-weight: normal;
+    text-align: justify;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.liveDemoSection{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.liveDemoSection > li{
+    display: inline;
+    text-align: left;
+}
+
+.hostedProject > button{
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+}
+
+.hostedCode > button{
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+    color: var(--theme-color);
+    background-color: transparent;
+    border: 0.8px solid var(--theme-color);
 }
